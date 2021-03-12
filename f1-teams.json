@@ -1,0 +1,162 @@
+[
+    {
+        "team": "Mercedes",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/411/41132e1aaf509ac4d7ac0db175e76f82.jpg",
+        "drivers": [
+            {
+                "name": "Lewis Hamilton",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/L/LEWHAM01_Lewis_Hamilton/lewham01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Valtteri Bottas",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/V/VALBOT01_Valtteri_Bottas/valbot01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Red Bull Racing",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/b97/b978390df2ba8392e2a2c2cf28a83280.jpg",
+        "drivers": [
+            {
+                "name": "Max Verstappen",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/M/MAXVER01_Max_Verstappen/maxver01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Sergio Perez",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/S/SERPER01_Sergio_Perez/serper01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "McLaren",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/241/241dd0640388c1fe981207fd439ea709.jpg",
+        "drivers": [
+            {
+                "name": "Daniel Ricciardo",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/D/DANRIC01_Daniel_Ricciardo/danric01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Lando Norris",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/L/LANNOR01_Lando_Norris/lannor01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Aston Martin",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/fd1/fd1057178af73587f514da6dda8a1cbe.jpg",
+        "drivers": [
+            {
+                "name": "Lance Stroll",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/L/LANSTR01_Lance_Stroll/lanstr01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Sebastian Vettel",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/S/SEBVET01_Sebastian_Vettel/sebvet01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Alpine",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/189/189e2e95d49ad1d234a52ea6feb31290.jpg",
+        "drivers": [
+            {
+                "name": "Esteban Ocon",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/E/ESTOCO01_Esteban_Ocon/estoco01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Fernando Alonso",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/F/FERALO01_Fernando_Alonso/feralo01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Ferrari",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/c05/c05d00f4d61b81f419bc5d9f842855fd.jpg",
+        "drivers": [
+            {
+                "name": "Charles Leclerc",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/C/CHALEC01_Charles_Leclerc/chalec01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Carlos Sainz",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/C/CARSAI01_Carlos_Sainz/carsai01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "AlpaTauri",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/a03/a03416731d5774dc59a780a26466a064.jpg",
+        "drivers": [
+            {
+                "name": "Pierre Gasly",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/P/PIEGAS01_Pierre_Gasly/piegas01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Yuki Tsunoda",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/Y/YUKTSU01_Yuki_Tsunoda/yuktsu01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Alfa Romeo Racing",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/42d/42d79cf67c06c1f3501ddf5287895f3f.jpg",
+        "drivers": [
+            {
+                "name": "Kimi Raikkonen",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/K/KIMRAI01_Kimi_R%C3%A4ikk%C3%B6nen/kimrai01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Antonio Giovinazzi",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/A/ANTGIO01_Antonio_Giovinazzi/antgio01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Haas F1 Team",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/d26/d26c404ca862e126d694e8ab62e8a15d.jpg",
+        "drivers": [
+            {
+                "name": "Mick Schumacher",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/M/MICSCH02_Mick_Schumacher/micsch02.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Nikita Mazepin",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/N/NIKMAZ01_Nikita_Mazepin/nikmaz01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    },
+    {
+        "team": "Williams",
+        "car-image": "https://cdn.riddle.com/embeds/v2/images/q_80,c_fill,w_960,h_540/5c5/5c534dcaa4c1bb9cbdd6279b71a75331.jpg",
+        "drivers": [
+            {
+                "name": "George Russell",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/G/GEORUS01_George_Russell/georus01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            },
+            {
+                "name": "Nicholas Latifi",
+                "photo": "https://www.formula1.com/content/dam/fom-website/drivers/N/NICLAF01_Nicholas_Latifi/niclaf01.png.transform/2col-retina/image.png",
+                "lapTime": 0
+            }
+        ]
+    }
+]
