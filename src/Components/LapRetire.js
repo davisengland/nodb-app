@@ -41,13 +41,13 @@ class LapRetire extends Component {
                     <input className='log-elem' value={this.state.logNameInput} onChange={event => this.handleLogName(event.target.value)}/>
                     <h4 className='log-elem'>Lap Time:</h4>
                     <input className='log-elem' value={this.state.logTimeInput} onChange={event => this.handleLogTime(event.target.value)}/>
-                    <button className='log-elem' onClick={() => this.handleLogLap()}>Log</button>
+                    <button className='log-elem buttons' onClick={() => this.handleLogLap()}>Log</button>
                 </section>
                 <section className='retire'>
                     <h3 className='log-elem retire-car'>Retire Car</h3>
                     <h4 className='log-elem'>Driver Name:</h4>
                     <input className='log-elem' value={this.state.retireNameInput} onChange={event => this.handleRetireName(event.target.value)}/>
-                    <button className='log-elem retire-button' onClick={() => this.handleRetire()}>Retire</button>
+                    <button className='log-elem retire-button buttons' onClick={() => this.handleRetire()}>Retire</button>
                 </section>
             </div>
         )

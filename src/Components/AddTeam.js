@@ -42,7 +42,7 @@ class AddTeam extends Component {
                     <input className='add' value={this.state.teamInput} onChange={event => this.handleTeam(event.target.value)}/>
                     <h4 className='add' >Driver Name:</h4>
                     <input className='add' value={this.state.driverInput} onChange={event => this.handleDriver(event.target.value)}/>
-                    <button className='add' onClick={() => this.handleAdd()}>Add</button>
+                    <button className='add buttons' onClick={() => this.handleAdd()}>Add</button>
                 </section>
             </div>
         )

@@ -21,7 +21,7 @@ class EditField extends Component {
 
         return(
             <div>
-                <button className='x' onClick={() => this.props.deleteTeamFn(this.props.teams.team)}>X</button>
+                <button className='x buttons' onClick={() => this.props.deleteTeamFn(this.props.teams.team)}>X</button>
                 <div className='drivers'>{driversMap}</div>
             </div>
         )
