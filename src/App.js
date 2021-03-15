@@ -16,12 +16,12 @@ class App extends Component {
 
   componentDidMount() {
     axios.get('/api/teams')
-      .then(res => this.setState({teams: res.date}))
+      .then(res => this.setState({teams: res.data}))
       .catch(err => console.log(err))
   }
 
-  addTeam = () => {
-    axios.post('/api/teams')
+  addTeam = (newTeam) => {
+    axios.post('/api/teams', {newTeam: newTeam})
       .then(res => this.setState({teams: res.data}))
       .catch(err => console.log(err))
   }
@@ -33,28 +33,23 @@ class App extends Component {
   }
 
   editLapTime = (driver, lapTime) => {
-
-    axios.put(`/api/teams/${driver}`)
+    axios.put(`/api/teams/${driver}/${lapTime}`)
       .then(res => this.setState({teams: res.data}))
       .catch(err => console.log(err))
   }
 
   removeDriver = (driver) => {
-    let body = {name: driver}
-
-    axios.put(`/api/teams/${driver}`, body)
+    axios.put(`/api/teams/${driver}`)
       .then(res => this.setState({teams: res.data}))
       .catch(err => console.log(err))
   }
 
   render() {
-    console.log(this.state.teams)
-
     return (
       <div className="App">
         <Header/>
-        <Field teamsArr={this.state.teams} addTeamFn={this.addTeam} deleteTeamFn={this.deleteTeam}/>
-        {/* <Grid teams={this.state.teams} editLapTimeFn={this.editLapTime} removeDriverFn={this.removeDriver}/> */}
+        <Field teams={this.state.teams} addTeamFn={this.addTeam} deleteTeamFn={this.deleteTeam}/>
+        <Grid teams={this.state.teams} editLapTimeFn={this.editLapTime} removeDriverFn={this.removeDriver}/>
       </div>
     )
   }

@@ -7,17 +7,7 @@ module.exports = {
     },
     
     addTeam: (req, res) => {
-        const {team, driver} = req.body
-
-        newTeam = {
-            team: team,
-            drivers: [
-                {
-                    name: driver,
-                    lapTime: 0
-                }
-            ]
-        }
+        const {newTeam} = req.body
 
         teams.push(newTeam)
         res.status(200).send(teams)
@@ -44,7 +34,7 @@ module.exports = {
     },
 
     removeDriver: (req, res) => {
-        const {driver} = req.body
+        const {driver} = req.params
 
         for(let i = 0; i < teams.length; i++) {
             const index = teams[i].drivers.findIndex(elem => elem.name === driver)

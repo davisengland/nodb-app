@@ -1,6 +1,10 @@
+.App {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .header {
   width: 100vw;
-  height: 8vh;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,11 +12,12 @@
   top: 0px;
   background-color: rgb(27, 27, 27);
   color: white;
+  z-index: 1;
 }
 
 .logo {
   position: absolute;
-  left: 5px;
+  left: 10px;
   width: 90px;
   height: 75px;
 }
@@ -25,4 +30,133 @@
 
 .field-title {
   margin-top: 0px;
+  margin-left: 140px;
+  font-size: 35px;
+}
+
+.driver-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teams-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams {
+  position: relative;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px gainsboro;
+  margin: 10px 50px;
+  border-radius: 5px;
+}
+
+.drivers {
+  display: flex;
+}
+
+.photos {
+  margin: 0px 20px;
+}
+
+.x {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.add-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.add-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 85.25vw;
+  box-shadow: 0px 0px 10px gainsboro;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+
+.add {
+  margin: 20px 50px;
+  font-size: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.car {
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px gainsboro;
+}
+
+.pole {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 25px;
+}
+
+.leader {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.positions {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+.log-retire {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  width: 85.25vw;
+  margin: 30px 0px;
+  box-shadow: 0px 0px 10px gainsboro;
+  background-color: rgb(245, 245, 245);
+  border-radius: 5px;
+}
+
+.log {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.retire {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 170px
+}
+
+.log-elem {
+  margin: 20px 50px;
+}
+
+.retire-car {
+  margin-right: 75px;
+}
+
+.retire-button {
+  margin-left: 485px;
 }

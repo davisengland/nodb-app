@@ -9,22 +9,20 @@ class EditField extends Component {
     }
 
     render() {
-        const {teamsArr} = this.props
-
-        // let driversMap = teams.drivers.map((elem, i) => {
-        //     return(
-        //         <div className='driver-info'>
-        //             <h4>{elem.name}</h4>
-        //             <img src={elem.photo} alt={elem.name}/>
-        //         </div>
-        //     )
-        // })
+        const {teams} = this.props
+        let driversMap = teams.drivers.map((elem, i) => {
+            return(
+                <div key={i} className='driver-info'>
+                    <h4>{elem.name}</h4>
+                    <img className='photos' src={elem.photo} alt={elem.name} width='250px'/>
+                </div>
+            )
+        })
 
         return(
             <div>
-                <h3>{teamsArr.name}</h3>
-                <button onClick={() => this.props.deleteTeamFn}>X</button>
-                {/* <div>{driversMap}</div> */}
+                <button className='x' onClick={() => this.props.deleteTeamFn(this.props.teams.team)}>X</button>
+                <div className='drivers'>{driversMap}</div>
             </div>
         )
     }

@@ -11,6 +11,6 @@ app.get('/api/teams', teamsCtrl.getTeams)
 app.post('/api/teams', teamsCtrl.addTeam)
 app.delete('/api/teams/:team', teamsCtrl.deleteTeam)
 app.put('/api/teams/:driver/:lapTime', teamsCtrl.editLapTime)
-app.put('/api/teams/', teamsCtrl.removeDriver)
+app.put('/api/teams/:driver', teamsCtrl.removeDriver)
 
 app.listen(port, () => console.log(`Server is running on ${port}`))
