@@ -14,7 +14,8 @@ module.exports = {
     },
 
     deleteTeam: (req, res) => {
-        const {team} = req.params
+        // const {team} = req.params
+        const {team} = req.query
 
         const index = teams.findIndex(elem => elem.team === team)
         teams.splice(index, 1)

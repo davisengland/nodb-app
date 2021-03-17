@@ -84,7 +84,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 85.25vw;
   box-shadow: 0px 0px 10px gainsboro;
   background-color: rgb(245, 245, 245);
   border-radius: 5px;
@@ -129,7 +128,6 @@
   display: flex;
   flex-direction: column;
   font-size: 20px;
-  width: 85.25vw;
   margin: 30px 0px;
   box-shadow: 0px 0px 10px gainsboro;
   background-color: rgb(245, 245, 245);
@@ -145,16 +143,11 @@
 .retire {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-left: 170px
+  justify-content: center;
 }
 
 .log-elem {
   margin: 20px 50px;
-}
-
-.retire-car {
-  margin-right: 75px;
 }
 
 .retire-button {

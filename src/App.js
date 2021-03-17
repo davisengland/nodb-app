@@ -27,7 +27,8 @@ class App extends Component {
   }
 
   deleteTeam = (team) => {
-    axios.delete(`/api/teams/${team}`)
+    // axios.delete(`/api/teams/${team}`)
+    axios.delete(`/api/teams?team=${team}`)
       .then(res => this.setState({teams: res.data}))
       .catch(err => console.log(err))
   }
